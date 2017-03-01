@@ -3,6 +3,8 @@ var dateFormat = require('dateformat');
 
 var app = express();
 
+var port = process.env.PORT || 8080;
+
 app.get('/:userTime', function (req, res) {
   var userTimeInputStr = req.params.userTime;
   var userTimeNaturel;
