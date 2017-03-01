@@ -36,6 +36,6 @@ app.get('/', function(req, res){
   res.send('Alfred Zaki FreeCodeCamp TimeStamp Project');
 });
 
-app.listen(8080, function () {
-  console.log('Timestamp app listening on port 8080!');
+app.listen(443, function () {
+  //console.log('Timestamp app listening on port 8080!');
 });
